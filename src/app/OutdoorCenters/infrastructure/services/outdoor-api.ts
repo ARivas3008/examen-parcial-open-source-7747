@@ -6,11 +6,11 @@ import { OutdoorResource } from '../resources/outdoor.resources';
 import { OutdoorAssembler } from '../assemblers/outdoor.assembler';
 @Injectable({ providedIn: 'root' })
 export class OutdoorApi extends BaseApi {
-  readonly bookstores = new BaseEndpoint<OutdoorResource>(
+  readonly outdoor = new BaseEndpoint<OutdoorResource>(
     this.http,
     environment.apiBase + environment.endpoints.outdoor,
   );
   async getOutdoor() {
-    return (await this.bookstores.list()).map(OutdoorAssembler.toEntity);
+    return (await this.outdoor.list()).map(OutdoorAssembler.toEntity);
   }
 }
