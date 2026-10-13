@@ -1,5 +1,23 @@
 # ExamenParcial
 
+Project develop by Bernie Aarón Rivas Méndez - U20241F109
+
+Link from repository in github:  https://github.com/ARivas3008/examen-parcial-open-source-7747.git
+
+In this exam I design two bounded context, using the structure that give us the methodology.
+The before mentioned items are:
+- OutdoorCenters
+- Reservations
+
+
+There are located in src/app
+
+As a developer i focus on shared files that set some configuration to all the system, and it is in its own carpet
+
+
+
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.0.
 
 ## Development server
