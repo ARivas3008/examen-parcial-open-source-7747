@@ -1,4 +1,4 @@
-export class Bookstore {
+export class Reservation {
   constructor(
     public readonly id: number,
     public readonly outdoorCenterId: number,

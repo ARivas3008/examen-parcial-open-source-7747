@@ -9,7 +9,7 @@ export const environment = {
     subjectsBase: 'https://open-meteo.com/',
   },
   logoBase: 'https://img.logo.dev',
-  logoDomain: 'barnesandnoble.com',
+  logoDomain: 'trailgo.com',
   logoToken: '',
   primeUiLicense: '',
   brand: 'TrailGO Outdoor Center',
