@@ -1,4 +1,4 @@
-export class Bookstore {
+export class Outdoor {
   constructor(
     public readonly id: number,
     public readonly name: string,
